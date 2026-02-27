@@ -8,7 +8,7 @@ Automatic Fallback: Gracefully switches to cv2.matchTemplate (CPU) if a GPU is u
 Ensure you have the following installed:
 pip install torch numpy opencv-python
 
-💻 Usage
+Usage
 The module is designed to be used as a singleton for efficiency.
 
 import cv2
