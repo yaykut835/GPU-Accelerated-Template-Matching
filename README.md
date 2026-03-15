@@ -1,9 +1,9 @@
 # GPU-Accelerated-Template-Matching
-A high performance Python utility for performing Normalized Cross-Correlation template matching using PyTorch gpu kernels. This module provides a significant speedup over standard cpu based methods (like cv2.matchTemplate) while maintaining a seamless fallback mechanism.
+A high performance Python utility for performing Normalized cross correlation template matching using pytorch gpu kernels. This module provides a significant speedup over standard cpu based methods (like cv2.matchTemplate) while maintaining a seamless fallback mechanism.
 
 Gpu Acceleration: Leverages PyTorch's conv2d and avg_pool2d for massive parallelization.
-Ncc Algorithm: Robust matching that handles lighting and contrast variations.
-Automatic Fallback: Gracefully switches to cv2.matchTemplate(cpu) if a gpu is unavailable or out of memory.
+Ncc algorithm: Robust matching that handles lighting and contrast variations.
+Automatic fallback: Gracefully switches to cv2.matchTemplate(cpu) if a gpu is unavailable or out of memory.
 
 Ensure you have the following installed:
 pip install torch numpy opencv-python
